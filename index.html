@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validator</title>
+</head>
+<body>
+
+  <form action="login.html" method="post" id="form" style="text-align: center;">
+    <div>
+      <label for="Name" style="padding-right: 130px;">Name</label><br>
+      <input type="text" name="name" id="username">
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
+    
+
+    <div>
+      <label for="email"  style="padding-right: 130px;">Email</label> <br>
+      <input type="email" name="email" id="email">
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
+
+    <div>
+      <label for="password"  style="padding-right: 120px;">Password</label><br>
+      <input type="password" name="password" id="password">
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
+    
+
+    <button type="submit" id="submit" >Submit</button>
+  </form>
+</body>
+<script src="main.js"></script>
+</html>
+
+
